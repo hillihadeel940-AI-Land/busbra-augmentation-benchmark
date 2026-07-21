@@ -24,7 +24,7 @@ pandas numpy pillow scipy
 
 ```bash
 # Run one augmentation condition
-python busbra_pipeline_v2_.py \
+python busbra_pipeline_v3_.py \
     --data_root /path/to/BUS-BRA \
     --aug modern \
     --epochs 100 \
@@ -34,7 +34,7 @@ python busbra_pipeline_v2_.py \
 # baseline, geometric, intensity, ultrasound, modern, combined
 
 # Available backbones:
-# efficientnet
+# efficientnet, Resnet50 
 ```
 
 ## Dataset
